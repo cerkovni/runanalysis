@@ -1,0 +1,17 @@
+---
+title: "README"
+author: "Logan Cerkovnik"
+date: "Sunday, April 26, 2015"
+output: html_document
+---
+
+run_analysis.r is a function that takes the directories for the training and testmeasurementdata as an input and outputs a text file of the mean of a normalized (-1 to 1) accelerometer or gyroscope measurement for a given subject doing a particular activity.
+
+outputvariables:
+ subject  --Each of the 20 study subjects was assigned an identification number.
+ activity -- One of six activities(Walking, WalkingUpstairs, WalkingDownstairs,                Sitting, Standing, or Laying) performed during observation
+ measurement -- one of 9 different readings from accelerometers and gyroscopes (bodyaccelerationxdirection, bodyaccelerationydirection" 
+  bodyaccelerationzdirection, gyroxdirection, gyroydirection , gyrozdirection, totalaccelerationxdirection, totalaccelerationydirection, totalaccelerationzdirection")
+  mean-- the mean of a measurement reading averaged over an activity performed by a study subject 
+  
+ 
